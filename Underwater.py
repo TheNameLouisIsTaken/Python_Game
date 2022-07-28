@@ -43,7 +43,6 @@ class Enemy():
     def update(self, screen):
         self.x += self.speed
         self.hitbox.x += self.speed
-        #pygame.draw.rect(screen, (0, 255, 255), self.hitbox)
         screen.blit(self.pic, (self.x, self.y))
 
 
